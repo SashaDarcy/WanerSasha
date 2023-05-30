@@ -187,16 +187,16 @@ h3 {
 }
 
 
-/*------------ campus ------------ */
+/*------------ movie tiles ------------ */
 
-.campus {
+.Movs {
     width: 80%;
     margin: auto;
     text-align: center;
     padding-top: 50px;
 }
 
-.campus-col {
+.Movs-col {
     flex-basis: 32%;
     border-radius: 10px;
     margin-bottom: 30px;
@@ -204,7 +204,7 @@ h3 {
     overflow: hidden;
 }
 
-.campus-col img {
+.Movs-col img {
     width: 100%;
     display: block;
 }
@@ -498,4 +498,11 @@ h3 {
     outline: none;
     border: 1px solid #ccc;
     box-sizing: border-box;
+}
+
+.logo-img {
+    width: 100px;
+    /* Adjust the width as needed */
+    height: auto;
+    /* Allow the height to adjust proportionally */
 }
